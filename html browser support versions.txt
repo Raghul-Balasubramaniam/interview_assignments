@@ -1,0 +1,6 @@
+The HTML5 Supported browsers with versions are
+
+Google Chrome - Version 21+
+Internet Explorer - vresion 8+
+Safari - version 9+
+opera - version 3+
