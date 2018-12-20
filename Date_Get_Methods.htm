@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Different types of javascript Get Date methods:</h2>
+
+<p>getTime():</p>
+<p id="demo1"></p>
+<script>
+var a = new Date();
+document.getElementById("demo1").innerHTML = a.getTime();
+</script>
+
+<p>getFullYear():</p>
+<p id="demo2"></p>
+<script>
+var b = new Date();
+document.getElementById("demo2").innerHTML = b.getFullYear();
+</script>
+
+<p>getMonth():</p>
+<p id="demo3"></p>
+<script>
+var b = new Date();
+document.getElementById("demo3").innerHTML = b.getMonth();
+</script>
+
+<p>getDate():</p>
+<p id="demo4"></p>
+<script>
+var b = new Date();
+document.getElementById("demo4").innerHTML = b.getDate();
+</script>
+
+<p>getHours():</p>
+<p id="demo5"></p>
+<script>
+var b = new Date();
+document.getElementById("demo5").innerHTML = b.getHours();
+</script>
+
+<p>getMinutes():</p>
+<p id="demo6"></p>
+<script>
+var b = new Date();
+document.getElementById("demo6").innerHTML = b.getMinutes();
+</script>
+
+<p>getSeconds():</p>
+<p id="demo7"></p>
+<script>
+var b = new Date();
+document.getElementById("demo7").innerHTML = b.getSeconds();
+</script>
+
+<p>getMilliseconds():</p>
+<p id="demo8"></p>
+<script>
+var b = new Date();
+document.getElementById("demo8").innerHTML = b.getMilliseconds();
+</script>
+
+<p>getDay():</p>
+<p id="demo9"></p>
+<script>
+var b = new Date();
+document.getElementById("demo9").innerHTML = b.getDay();
+</script>
+
+<p>Date.now():</p>
+<button onclick="myFunction()">click here</button>
+<p id="demo10"></p>
+<script>
+function myFunction() {
+  var a = Date.now();
+  document.getElementById("demo10").innerHTML = a;
+}
+</script>
+
+</body>
+</html>

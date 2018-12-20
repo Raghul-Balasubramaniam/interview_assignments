@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Html url encode</p>
+
+<button onclick="myFunction()">click here</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var uri = "my test name @#$%^^";
+  var res = encodeURI(uri);
+  document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>
